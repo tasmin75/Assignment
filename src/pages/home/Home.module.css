@@ -1,0 +1,52 @@
+.home_container{
+    background-image: linear-gradient(rgba(16, 146, 202, 0.5), rgba(255, 255, 0, 0.5)),
+    url("https://th.bing.com/th/id/OIP.sE-X48n3hEdZ79x-vTMdqgHaEn?pid=ImgDet&w=713&h=445&rs=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    min-height: 90vh;
+}
+.home_container h1{
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid;
+    font-size: 2.2rem;
+}
+.home_container p{
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.home_container span{
+    color:red;
+    border-bottom: 1px solid;
+}
+.btn{
+    margin-top: 3rem;
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.btn button{
+    border: 3px solid whitesmoke;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn button:hover{
+    border: 3px solid rgb(0, 119, 128);;
+    background-color: transparent;
+    color: rgb(0, 119, 128);
+}
+.btn button:active{
+    transform: scale(0.9);
+}
